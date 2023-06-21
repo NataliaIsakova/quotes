@@ -1,0 +1,41 @@
+
+*{
+    font-family: 'Tilt Prism', cursive;
+  }
+
+
+  body {
+    background-image: url(life.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+
+  }
+  
+  p {
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: underline;
+    padding: 30px;
+    text-align: center;   
+  }
+
+  .main {
+    text-decoration: none;
+    font-size: 40px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    } 
+
+  button {
+    font-size: 20px;
+    border: none;
+    opacity: 0.8;
+    border-radius: 15px;
+  }
